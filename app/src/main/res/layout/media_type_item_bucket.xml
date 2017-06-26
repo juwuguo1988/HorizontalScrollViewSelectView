@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/item_name_root_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/s_c5c5c5_16"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:singleLine="true"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_focus_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/tab_cut_line"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+    </LinearLayout>
+
+</LinearLayout>
